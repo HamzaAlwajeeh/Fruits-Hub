@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:fruits_hub/core/utils/app_text_styles.dart';
 
 class OnBoardingPageItem extends StatelessWidget {
   const OnBoardingPageItem({
@@ -38,7 +39,7 @@ class OnBoardingPageItem extends StatelessWidget {
                 visible: isVisable,
                 child: Padding(
                   padding: const EdgeInsets.all(25.0),
-                  child: Text('تخط'),
+                  child: Text('تخط', style: TextStyles.regular13),
                 ),
               ),
             ],
@@ -49,7 +50,11 @@ class OnBoardingPageItem extends StatelessWidget {
         SizedBox(height: 24),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 37),
-          child: Text(subTitle, textAlign: TextAlign.center),
+          child: Text(
+            subTitle,
+            style: TextStyles.semiBold13.copyWith(color: Color(0xff4E5556)),
+            textAlign: TextAlign.center,
+          ),
         ),
       ],
     );
