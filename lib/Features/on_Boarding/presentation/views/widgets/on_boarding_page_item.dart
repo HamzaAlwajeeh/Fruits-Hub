@@ -8,11 +8,13 @@ class OnBoardingPageItem extends StatelessWidget {
     required this.image,
     required this.title,
     required this.subTitle,
+    required this.isVisable,
   });
   final String background;
   final String image;
   final Widget title;
   final String subTitle;
+  final bool isVisable;
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +34,13 @@ class OnBoardingPageItem extends StatelessWidget {
                 right: 0,
                 child: SvgPicture.asset(image),
               ),
-              Padding(padding: const EdgeInsets.all(25.0), child: Text('تخط')),
+              Visibility(
+                visible: isVisable,
+                child: Padding(
+                  padding: const EdgeInsets.all(25.0),
+                  child: Text('تخط'),
+                ),
+              ),
             ],
           ),
         ),

@@ -8,8 +8,10 @@ class OnBoardingPageView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PageView(
+      physics: BouncingScrollPhysics(),
       children: [
         OnBoardingPageItem(
+          isVisable: true,
           background: Assets.imagesPageViewItem1Background,
           image: Assets.imagesPageViewItem1Image,
           title: Row(
@@ -20,6 +22,7 @@ class OnBoardingPageView extends StatelessWidget {
               'اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.',
         ),
         OnBoardingPageItem(
+          isVisable: false,
           background: Assets.imagesPageViewItem2Background,
           image: Assets.imagesPageViewItem2Image,
           title: Text('ابحث وتسوق'),

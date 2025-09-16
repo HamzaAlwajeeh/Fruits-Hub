@@ -19,10 +19,10 @@ class OnBoardingBody extends StatelessWidget {
             activeColor: AppColors.primaryColor,
           ),
         ),
-        SizedBox(height: 29),
+        SizedBox(height: 43),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: CustomButton(text: 'ابدأ الان'),
+          child: CustomButton(onPressed: () {}, text: 'ابدأ الان'),
         ),
         SizedBox(height: 43),
       ],
