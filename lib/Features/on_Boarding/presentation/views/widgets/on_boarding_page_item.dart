@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:fruits_hub/core/utils/app_images.dart';
 
 class OnBoardingPageItem extends StatelessWidget {
   const OnBoardingPageItem({
@@ -25,10 +24,7 @@ class OnBoardingPageItem extends StatelessWidget {
           child: Stack(
             children: [
               Positioned.fill(
-                child: SvgPicture.asset(
-                  Assets.imagesPageViewItem1Background,
-                  fit: BoxFit.fill,
-                ),
+                child: SvgPicture.asset(background, fit: BoxFit.fill),
               ),
               Positioned(
                 bottom: 0,
@@ -36,10 +32,16 @@ class OnBoardingPageItem extends StatelessWidget {
                 right: 0,
                 child: SvgPicture.asset(image),
               ),
-              // title,
-              // Text(subTitle),
+              Padding(padding: const EdgeInsets.all(16.0), child: Text('تخط')),
             ],
           ),
+        ),
+        SizedBox(height: 64),
+        title,
+        SizedBox(height: 24),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 37),
+          child: Text(subTitle, textAlign: TextAlign.center),
         ),
       ],
     );
