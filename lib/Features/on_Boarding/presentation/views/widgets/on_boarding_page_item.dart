@@ -32,7 +32,7 @@ class OnBoardingPageItem extends StatelessWidget {
                 right: 0,
                 child: SvgPicture.asset(image),
               ),
-              Padding(padding: const EdgeInsets.all(16.0), child: Text('تخط')),
+              Padding(padding: const EdgeInsets.all(25.0), child: Text('تخط')),
             ],
           ),
         ),

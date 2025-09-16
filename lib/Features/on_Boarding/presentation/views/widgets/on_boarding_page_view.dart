@@ -22,16 +22,10 @@ class OnBoardingPageView extends StatelessWidget {
         OnBoardingPageItem(
           background: Assets.imagesPageViewItem2Background,
           image: Assets.imagesPageViewItem2Image,
-          title: Text('Welcome to Fruits Hub'),
-          subTitle: 'The best place to buy fruits online',
+          title: Text('ابحث وتسوق'),
+          subTitle:
+              'نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية',
         ),
-
-        // OnBoardingPageItem(
-        //   background: Assets.imagesPageViewItem2Background,
-        //   image: Assets.imagesPageViewItem2Image,
-        //   title: Text('Welcom to Fruits Hub'),
-        //   subtitle: 'Our app is easy to use and navigate',
-        // ),
       ],
     );
   }
