@@ -41,7 +41,7 @@ class OnBoardingPageView extends StatelessWidget {
           isVisable: false,
           background: Assets.imagesPageViewItem2Background,
           image: Assets.imagesPageViewItem2Image,
-          title: Text('ابحث وتسوق'),
+          title: Text('ابحث وتسوق', style: TextStyles.bold23),
           subTitle:
               'نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية',
         ),
