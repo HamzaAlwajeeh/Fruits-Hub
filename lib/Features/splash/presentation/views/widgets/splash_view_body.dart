@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:fruits_hub/Features/on_Boarding/presentation/views/on_boarding_view.dart';
+import 'package:fruits_hub/core/helper/functions/check_current_language.dart';
 import 'package:fruits_hub/core/utils/app_images.dart';
 
 class SplashViewBody extends StatefulWidget {
@@ -24,7 +25,10 @@ class _SplashViewBodyState extends State<SplashViewBody> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Row(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment:
+              chickCurrentLanguage() == 'ar'
+                  ? MainAxisAlignment.end
+                  : MainAxisAlignment.start,
           children: [SvgPicture.asset(Assets.imagesSplashTop)],
         ),
         SvgPicture.asset(Assets.imagesSplashCenter),
