@@ -23,7 +23,7 @@ class FruitsHub extends StatelessWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(useMaterial3: false),
+      theme: ThemeData(useMaterial3: false, fontFamily: 'Cairo'),
       onGenerateRoute: onGenerateRoute,
       initialRoute: SplashView.routeName,
     );
