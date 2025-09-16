@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:fruits_hub/core/helper/functions/check_current_language.dart';
 import 'package:fruits_hub/core/utils/app_text_styles.dart';
+import 'package:fruits_hub/generated/l10n.dart';
 
 class OnBoardingPageItem extends StatelessWidget {
   const OnBoardingPageItem({
@@ -42,8 +43,11 @@ class OnBoardingPageItem extends StatelessWidget {
                   left: chickCurrentLanguage() == 'ar' ? 0 : null,
                   right: chickCurrentLanguage() == 'en' ? 0 : null,
                   child: Padding(
-                    padding: const EdgeInsets.all(25.0),
-                    child: Text('تخط', style: TextStyles.regular13),
+                    padding: const EdgeInsets.all(32),
+                    child: Text(
+                      S.of(context).skip,
+                      style: TextStyles.regular16,
+                    ),
                   ),
                 ),
               ),
@@ -57,7 +61,7 @@ class OnBoardingPageItem extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 37),
           child: Text(
             subTitle,
-            style: TextStyles.semiBold13.copyWith(color: Color(0xff4E5556)),
+            style: TextStyles.semiBold14.copyWith(color: Color(0xff4E5556)),
             textAlign: TextAlign.center,
           ),
         ),

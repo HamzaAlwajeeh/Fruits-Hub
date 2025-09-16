@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:fruits_hub/Features/on_Boarding/presentation/views/widgets/on_boarding_page_view.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/widgets/custom_button.dart';
+import 'package:fruits_hub/generated/l10n.dart';
 
 class OnBoardingBody extends StatelessWidget {
   const OnBoardingBody({super.key});
@@ -21,8 +22,11 @@ class OnBoardingBody extends StatelessWidget {
         ),
         SizedBox(height: 43),
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: CustomButton(onPressed: () {}, text: 'ابدأ الان'),
+          padding: const EdgeInsets.symmetric(horizontal: 32),
+          child: CustomButton(
+            onPressed: () {},
+            text: S.of(context).onBoardingButton,
+          ),
         ),
         SizedBox(height: 43),
       ],

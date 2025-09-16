@@ -53,6 +53,71 @@ class S {
   static S? maybeOf(BuildContext context) {
     return Localizations.of<S>(context, S);
   }
+
+  /// `Fruit`
+  String get firstAppName {
+    return Intl.message('Fruit', name: 'firstAppName', desc: '', args: []);
+  }
+
+  /// `HUB`
+  String get secondAppName {
+    return Intl.message('HUB', name: 'secondAppName', desc: '', args: []);
+  }
+
+  /// `Skip`
+  String get skip {
+    return Intl.message('Skip', name: 'skip', desc: '', args: []);
+  }
+
+  /// `Welcom To `
+  String get onBoarding_1_title {
+    return Intl.message(
+      'Welcom To ',
+      name: 'onBoarding_1_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and highest quality.`
+  String get onBoarding_1_SubTitle {
+    return Intl.message(
+      'Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and highest quality.',
+      name: 'onBoarding_1_SubTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Search and Shop`
+  String get onBoarding_2_title {
+    return Intl.message(
+      'Search and Shop',
+      name: 'onBoarding_2_title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We offer you the finest, carefully selected fruits. Check out the details, photos, and reviews to make sure you're choosing the perfect fruit.`
+  String get onBoarding_2_SubTitle {
+    return Intl.message(
+      'We offer you the finest, carefully selected fruits. Check out the details, photos, and reviews to make sure you\'re choosing the perfect fruit.',
+      name: 'onBoarding_2_SubTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Get Started`
+  String get onBoardingButton {
+    return Intl.message(
+      'Get Started',
+      name: 'onBoardingButton',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
