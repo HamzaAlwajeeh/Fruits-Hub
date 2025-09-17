@@ -5,14 +5,33 @@ import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/widgets/custom_button.dart';
 import 'package:fruits_hub/generated/l10n.dart';
 
-class OnBoardingBody extends StatelessWidget {
+class OnBoardingBody extends StatefulWidget {
   const OnBoardingBody({super.key});
+
+  @override
+  State<OnBoardingBody> createState() => _OnBoardingBodyState();
+}
+
+class _OnBoardingBodyState extends State<OnBoardingBody> {
+  late PageController pageController;
+
+  @override
+  void initState() {
+    pageController = PageController();
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    pageController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Expanded(child: OnBoardingPageView()),
+        Expanded(child: OnBoardingPageView(pageController: pageController)),
         DotsIndicator(
           dotsCount: 2,
           decorator: DotsDecorator(

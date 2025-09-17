@@ -8,11 +8,12 @@ import 'package:fruits_hub/core/utils/app_text_styles.dart';
 import 'package:fruits_hub/generated/l10n.dart';
 
 class OnBoardingPageView extends StatelessWidget {
-  const OnBoardingPageView({super.key});
-
+  const OnBoardingPageView({super.key, required this.pageController});
+  final PageController pageController;
   @override
   Widget build(BuildContext context) {
     return PageView(
+      controller: pageController,
       physics: BouncingScrollPhysics(),
       children: [
         OnBoardingPageItem(
