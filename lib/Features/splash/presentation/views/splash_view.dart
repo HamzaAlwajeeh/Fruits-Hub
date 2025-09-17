@@ -3,7 +3,7 @@ import 'package:fruits_hub/Features/splash/presentation/views/widgets/splash_vie
 
 class SplashView extends StatelessWidget {
   const SplashView({super.key});
-  static const String routeName = '/splash';
+  static const String routeName = 'splash';
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: SplashViewBody());
