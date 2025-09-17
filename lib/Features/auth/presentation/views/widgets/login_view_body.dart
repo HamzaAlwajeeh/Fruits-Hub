@@ -4,6 +4,7 @@ import 'package:fruits_hub/core/constants/constants.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/utils/app_text_styles.dart';
 import 'package:fruits_hub/core/widgets/custom_button.dart';
+import 'package:fruits_hub/generated/l10n.dart';
 
 class LoginViewBody extends StatelessWidget {
   const LoginViewBody({super.key});
@@ -19,12 +20,12 @@ class LoginViewBody extends StatelessWidget {
             SizedBox(height: 24),
             CustomTextFormField(
               textInputType: TextInputType.emailAddress,
-              hintText: 'البريد الإلكتروني',
+              hintText: S.of(context).Email,
             ),
             SizedBox(height: 16),
             CustomTextFormField(
               textInputType: TextInputType.visiblePassword,
-              hintText: 'كلمة المرور',
+              hintText: S.of(context).Password,
               suffixIcon: Icon(
                 Icons.remove_red_eye,
                 color: AppColors.textgreyColor,
@@ -32,25 +33,25 @@ class LoginViewBody extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'نسيت كلمة المرور؟',
+              S.of(context).ForgotPassword,
               style: TextStyles.semiBold14.copyWith(
                 color: AppColors.lightprimaryColor,
               ),
             ),
             SizedBox(height: 33),
-            CustomButton(onPressed: () {}, text: 'تسجيل الدخول'),
+            CustomButton(onPressed: () {}, text: S.of(context).Login),
             SizedBox(height: 33),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'لا تمتلك حساب؟ ',
+                  S.of(context).DontHaveAnAccount,
                   style: TextStyles.semiBold16.copyWith(
                     color: AppColors.textgreyColor,
                   ),
                 ),
                 Text(
-                  'قم بإنشاء حساب',
+                  S.of(context).SignUp,
                   style: TextStyles.semiBold16.copyWith(
                     color: AppColors.primaryColor,
                   ),

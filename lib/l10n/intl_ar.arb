@@ -7,5 +7,16 @@
     "onBoarding_1_SubTitle" : "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
     "onBoarding_2_title" : "ابحث وتسوق",
     "onBoarding_2_SubTitle" : "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية",
-    "onBoardingButton" : "ابدأ الان"
+    "onBoardingButton" : "ابدأ الان",
+
+    "Login" : "تسجيل الدخول",
+    "Email" : "البريد الالكتروني",
+    "Password" : "كلمة المرور",
+    "ForgotPassword" : "نسيت كلمة المرور؟ ",
+    "DontHaveAccount" : "لا تمتلك حساب؟ ",
+    "Or" : "أو",
+    "SignUp" : "قم بإنشاء حساب",
+    "ContinueWithGoogle" : "تسجيل بواسطة جوجل",
+    "ContinueWithApple" : "تسجيل بواسطة أبل",
+    "ContinueWithFacebook" : "تسجيل بواسطة فيسبوك"
 }

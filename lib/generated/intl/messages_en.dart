@@ -22,6 +22,23 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "ContinueWithApple": MessageLookupByLibrary.simpleMessage(
+      "Continue with Apple",
+    ),
+    "ContinueWithFacebook": MessageLookupByLibrary.simpleMessage(
+      "Continue with Facebook",
+    ),
+    "ContinueWithGoogle": MessageLookupByLibrary.simpleMessage(
+      "Continue with Google",
+    ),
+    "Email": MessageLookupByLibrary.simpleMessage("Email"),
+    "ForgotPassword": MessageLookupByLibrary.simpleMessage(
+      "Forgot Your Password? ",
+    ),
+    "Login": MessageLookupByLibrary.simpleMessage("Login"),
+    "Or": MessageLookupByLibrary.simpleMessage("Or"),
+    "Password": MessageLookupByLibrary.simpleMessage("Password"),
+    "SignUp": MessageLookupByLibrary.simpleMessage("Sign Up"),
     "firstAppName": MessageLookupByLibrary.simpleMessage("Fruit"),
     "onBoardingButton": MessageLookupByLibrary.simpleMessage("Get Started"),
     "onBoarding_1_SubTitle": MessageLookupByLibrary.simpleMessage(

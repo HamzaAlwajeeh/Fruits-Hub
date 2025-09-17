@@ -6,5 +6,17 @@
     "onBoarding_1_SubTitle" : "Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and highest quality.",
     "onBoarding_2_title" : "Search and Shop",
     "onBoarding_2_SubTitle" : "We offer you the finest, carefully selected fruits. Check out the details, photos, and reviews to make sure you're choosing the perfect fruit.",
-    "onBoardingButton" : "Get Started"
+    "onBoardingButton" : "Get Started",
+
+    "Login" : "Login",
+    "Email" : "Email",
+    "Password" : "Password",
+    "ForgotPassword" : "Forgot Your Password? ",
+    "DontHaveAccount" : "Don't have an account? ",
+    "Or" : "Or",
+    "SignUp" : "Sign Up",
+    "ContinueWithGoogle" : "Continue with Google",
+    "ContinueWithApple" : "Continue with Apple",
+    "ContinueWithFacebook" : "Continue with Facebook"
+
 }

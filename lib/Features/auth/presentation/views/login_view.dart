@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/widgets/login_view_body.dart';
 import 'package:fruits_hub/core/widgets/custom_app_bar.dart';
+import 'package:fruits_hub/generated/l10n.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
@@ -10,7 +11,7 @@ class LoginView extends StatelessWidget {
     return Scaffold(
       appBar: customAppBar(
         context: context,
-        title: 'تسجيل دخول',
+        title: S.of(context).Login,
         isFirstPage: true,
       ),
       body: LoginViewBody(),

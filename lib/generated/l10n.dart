@@ -118,6 +118,71 @@ class S {
       args: [],
     );
   }
+
+  /// `Login`
+  String get Login {
+    return Intl.message('Login', name: 'Login', desc: '', args: []);
+  }
+
+  /// `Email`
+  String get Email {
+    return Intl.message('Email', name: 'Email', desc: '', args: []);
+  }
+
+  /// `Password`
+  String get Password {
+    return Intl.message('Password', name: 'Password', desc: '', args: []);
+  }
+
+  /// `Forgot Your Password? `
+  String get ForgotPassword {
+    return Intl.message(
+      'Forgot Your Password? ',
+      name: 'ForgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Or`
+  String get Or {
+    return Intl.message('Or', name: 'Or', desc: '', args: []);
+  }
+
+  /// `Sign Up`
+  String get SignUp {
+    return Intl.message('Sign Up', name: 'SignUp', desc: '', args: []);
+  }
+
+  /// `Continue with Google`
+  String get ContinueWithGoogle {
+    return Intl.message(
+      'Continue with Google',
+      name: 'ContinueWithGoogle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue with Apple`
+  String get ContinueWithApple {
+    return Intl.message(
+      'Continue with Apple',
+      name: 'ContinueWithApple',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Continue with Facebook`
+  String get ContinueWithFacebook {
+    return Intl.message(
+      'Continue with Facebook',
+      name: 'ContinueWithFacebook',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
