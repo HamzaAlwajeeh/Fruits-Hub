@@ -3,6 +3,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fruits_hub/Features/splash/presentation/views/splash_view.dart';
 import 'package:fruits_hub/core/helper/functions/on_generate_routes.dart';
 import 'package:fruits_hub/core/services/shared_pref_singleton.dart';
+import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/generated/l10n.dart';
 
 void main() async {
@@ -28,7 +29,12 @@ class FruitsHub extends StatelessWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(useMaterial3: false, fontFamily: 'Cairo'),
+      theme: ThemeData(
+        // useMaterial3: false,
+        fontFamily: 'Cairo',
+        scaffoldBackgroundColor: Colors.white,
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryColor),
+      ),
       onGenerateRoute: onGenerateRoute,
       initialRoute: SplashView.routeName,
     );
