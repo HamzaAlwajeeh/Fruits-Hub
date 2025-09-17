@@ -14,10 +14,14 @@ class OnBoardingBody extends StatefulWidget {
 
 class _OnBoardingBodyState extends State<OnBoardingBody> {
   late PageController pageController;
-
+  var currentPage = 0;
   @override
   void initState() {
     pageController = PageController();
+    pageController.addListener(() {
+      currentPage = pageController.page!.round();
+      setState(() {});
+    });
     super.initState();
   }
 
