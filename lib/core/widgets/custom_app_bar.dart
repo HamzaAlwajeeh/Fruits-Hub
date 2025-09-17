@@ -7,6 +7,7 @@ AppBar customAppBar({
   bool isFirstPage = false,
 }) {
   return AppBar(
+    backgroundColor: Colors.white,
     leading: Visibility(
       visible: !isFirstPage,
       child: IconButton(
