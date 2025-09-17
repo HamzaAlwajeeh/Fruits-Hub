@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/login_view.dart';
+import 'package:fruits_hub/core/constants/constants.dart';
 import 'package:fruits_hub/core/helper/functions/check_current_language.dart';
+import 'package:fruits_hub/core/services/shared_pref_singleton.dart';
 import 'package:fruits_hub/core/utils/app_text_styles.dart';
 import 'package:fruits_hub/generated/l10n.dart';
 
@@ -45,6 +47,7 @@ class OnBoardingPageItem extends StatelessWidget {
                   right: chickCurrentLanguage() == 'en' ? 0 : null,
                   child: GestureDetector(
                     onTap: () {
+                      Prefs.setBool(kIsOnBoardingSeen, true);
                       Navigator.of(
                         context,
                       ).pushReplacementNamed(LoginView.routeName);

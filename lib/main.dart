@@ -5,11 +5,11 @@ import 'package:fruits_hub/core/helper/functions/on_generate_routes.dart';
 import 'package:fruits_hub/core/services/shared_pref_singleton.dart';
 import 'package:fruits_hub/generated/l10n.dart';
 
-void main() {
+void main() async {
   //for shared pref
   WidgetsFlutterBinding.ensureInitialized();
   //init shared pref
-  Prefs.init();
+  await Prefs.init();
   runApp(const FruitsHub());
 }
 
