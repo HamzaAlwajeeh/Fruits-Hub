@@ -45,7 +45,7 @@ class LoginViewBody extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  S.of(context).DontHaveAnAccount,
+                  S.of(context).DontHaveAccount,
                   style: TextStyles.semiBold16.copyWith(
                     color: AppColors.textgreyColor,
                   ),

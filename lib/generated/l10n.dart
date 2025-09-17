@@ -144,6 +144,16 @@ class S {
     );
   }
 
+  /// `Don't have an account? `
+  String get DontHaveAccount {
+    return Intl.message(
+      'Don\'t have an account? ',
+      name: 'DontHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Or`
   String get Or {
     return Intl.message('Or', name: 'Or', desc: '', args: []);

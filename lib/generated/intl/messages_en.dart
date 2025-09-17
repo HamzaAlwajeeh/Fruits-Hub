@@ -31,6 +31,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "ContinueWithGoogle": MessageLookupByLibrary.simpleMessage(
       "Continue with Google",
     ),
+    "DontHaveAccount": MessageLookupByLibrary.simpleMessage(
+      "Don\'t have an account? ",
+    ),
     "Email": MessageLookupByLibrary.simpleMessage("Email"),
     "ForgotPassword": MessageLookupByLibrary.simpleMessage(
       "Forgot Your Password? ",
