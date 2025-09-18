@@ -204,6 +204,36 @@ class S {
     return Intl.message('Full Name', name: 'FullName', desc: '', args: []);
   }
 
+  /// `By creating an account, you agree to `
+  String get TearmsAndConditions1 {
+    return Intl.message(
+      'By creating an account, you agree to ',
+      name: 'TearmsAndConditions1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `TearmsAndConditions`
+  String get TearmsAndConditions2 {
+    return Intl.message(
+      'TearmsAndConditions',
+      name: 'TearmsAndConditions2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Our `
+  String get TearmsAndConditions3 {
+    return Intl.message(
+      'Our ',
+      name: 'TearmsAndConditions3',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Already have an account? `
   String get AlreadyHaveAnAccount {
     return Intl.message(

@@ -22,5 +22,8 @@
 
     "NewAccount" : "حساب جديد",
     "FullName" : "الإسم الكامل",
+    "TearmsAndConditions1" : "من خلال إنشاء الحساب ، فإنك تتوافق على ",
+    "TearmsAndConditions2" : "الشروط والاحكام ",
+    "TearmsAndConditions3" : "الخاصة بنا ",
     "AlreadyHaveAnAccount" : "تمتلك حساب بالفعل؟ "
 }

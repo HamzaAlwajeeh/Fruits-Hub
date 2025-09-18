@@ -45,6 +45,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "Password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "SignIn": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "SignUp": MessageLookupByLibrary.simpleMessage("قم بإنشاء حساب"),
+    "TearmsAndConditions1": MessageLookupByLibrary.simpleMessage(
+      "من خلال إنشاء الحساب ، فإنك تتوافق على ",
+    ),
+    "TearmsAndConditions2": MessageLookupByLibrary.simpleMessage(
+      "الشروط والاحكام ",
+    ),
+    "TearmsAndConditions3": MessageLookupByLibrary.simpleMessage("الخاصة بنا "),
     "firstAppName": MessageLookupByLibrary.simpleMessage("Fruit"),
     "onBoardingButton": MessageLookupByLibrary.simpleMessage("ابدأ الان"),
     "onBoarding_1_SubTitle": MessageLookupByLibrary.simpleMessage(
