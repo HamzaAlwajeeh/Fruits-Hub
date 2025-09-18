@@ -1,6 +1,18 @@
 // ignore_for_file: prefer_single_quotes
 class Assets {
   Assets._();
+  
+  /// Assets for imagesAppleIcon
+  /// assets/images/apple_icon.svg
+  static const String imagesAppleIcon = "assets/images/apple_icon.svg";
+
+  /// Assets for imagesFacebookIcon
+  /// assets/images/facebook_icon.svg
+  static const String imagesFacebookIcon = "assets/images/facebook_icon.svg";
+
+  /// Assets for imagesGoogleIcon
+  /// assets/images/google_icon.svg
+  static const String imagesGoogleIcon = "assets/images/google_icon.svg";
 
   /// Assets for imagesHamza
   /// assets/images/Hamza.png
@@ -8,23 +20,19 @@ class Assets {
 
   /// Assets for imagesPageViewItem1Background
   /// assets/images/page_view_item1_background.svg
-  static const String imagesPageViewItem1Background =
-      "assets/images/page_view_item1_background.svg";
+  static const String imagesPageViewItem1Background = "assets/images/page_view_item1_background.svg";
 
   /// Assets for imagesPageViewItem1Image
   /// assets/images/page_view_item1_image.svg
-  static const String imagesPageViewItem1Image =
-      "assets/images/page_view_item1_image.svg";
+  static const String imagesPageViewItem1Image = "assets/images/page_view_item1_image.svg";
 
   /// Assets for imagesPageViewItem2Background
   /// assets/images/page_view_item2_background.svg
-  static const String imagesPageViewItem2Background =
-      "assets/images/page_view_item2_background.svg";
+  static const String imagesPageViewItem2Background = "assets/images/page_view_item2_background.svg";
 
   /// Assets for imagesPageViewItem2Image
   /// assets/images/page_view_item2_image.svg
-  static const String imagesPageViewItem2Image =
-      "assets/images/page_view_item2_image.svg";
+  static const String imagesPageViewItem2Image = "assets/images/page_view_item2_image.svg";
 
   /// Assets for imagesSplashBottom
   /// assets/images/splash_bottom.svg
@@ -38,3 +46,4 @@ class Assets {
   /// assets/images/splash_top.svg
   static const String imagesSplashTop = "assets/images/splash_top.svg";
 }
+
