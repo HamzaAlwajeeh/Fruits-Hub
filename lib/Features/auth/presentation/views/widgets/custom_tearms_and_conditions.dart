@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/widgets/custom_check_box.dart';
+import 'package:fruits_hub/Features/auth/presentation/views/widgets/tearms_and_conditions_text.dart';
 
 class CustomTearmsAndConditions extends StatefulWidget {
   const CustomTearmsAndConditions({super.key});
@@ -23,12 +24,7 @@ class _CustomTearmsAndConditionsState extends State<CustomTearmsAndConditions> {
           isChecked: isAcceptTearms,
         ),
         const SizedBox(width: 16),
-        // Row(
-        //   children: [
-        //     Text('من خلال إنشاء حساب ، فإنك توافق على'),
-        //     Text(' لشروط والأحكام الخاصة بنا'),
-        //   ],
-        // ),
+        Expanded(child: TearmsAndConditionsText()),
       ],
     );
   }
