@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fruits_hub/Features/auth/presentation/views/widgets/custom_or_divider.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/widgets/custom_text_form_field.dart';
+import 'package:fruits_hub/Features/auth/presentation/views/widgets/dont_have_an_account_text.dart';
 import 'package:fruits_hub/core/constants/constants.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/utils/app_text_styles.dart';
@@ -41,23 +43,9 @@ class LoginViewBody extends StatelessWidget {
             SizedBox(height: 33),
             CustomButton(onPressed: () {}, text: S.of(context).Login),
             SizedBox(height: 33),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  S.of(context).DontHaveAccount,
-                  style: TextStyles.semiBold16.copyWith(
-                    color: AppColors.textgreyColor,
-                  ),
-                ),
-                Text(
-                  S.of(context).SignUp,
-                  style: TextStyles.semiBold16.copyWith(
-                    color: AppColors.primaryColor,
-                  ),
-                ),
-              ],
-            ),
+            DontHaveAnAccountText(),
+            SizedBox(height: 28),
+            CustomOrDivider(),
           ],
         ),
       ),
