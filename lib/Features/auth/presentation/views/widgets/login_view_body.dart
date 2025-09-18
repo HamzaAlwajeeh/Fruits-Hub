@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:fruits_hub/Features/auth/presentation/views/widgets/Custom_social_button.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/widgets/custom_or_divider.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/widgets/custom_text_form_field.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/widgets/dont_have_an_account_text.dart';
+import 'package:fruits_hub/Features/auth/presentation/views/widgets/social_buttons_section.dart';
 import 'package:fruits_hub/core/constants/constants.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
-import 'package:fruits_hub/core/utils/app_images.dart';
 import 'package:fruits_hub/core/utils/app_text_styles.dart';
 import 'package:fruits_hub/core/widgets/custom_button.dart';
 import 'package:fruits_hub/generated/l10n.dart';
@@ -49,11 +48,7 @@ class LoginViewBody extends StatelessWidget {
             const SizedBox(height: 28),
             CustomOrDivider(),
             const SizedBox(height: 16),
-            CustomSocialButton(
-              onTap: () {},
-              text: S.of(context).ContinueWithGoogle,
-              icon: Assets.imagesGoogleIcon,
-            ),
+            SocialButtonsSection(),
           ],
         ),
       ),
