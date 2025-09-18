@@ -43,7 +43,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "FullName": MessageLookupByLibrary.simpleMessage("Full Name"),
     "NewAccount": MessageLookupByLibrary.simpleMessage("New Account"),
-    "Or": MessageLookupByLibrary.simpleMessage("Or"),
+    "Or": MessageLookupByLibrary.simpleMessage("OR"),
     "Password": MessageLookupByLibrary.simpleMessage("Password"),
     "SignIn": MessageLookupByLibrary.simpleMessage("SignIn"),
     "SignUp": MessageLookupByLibrary.simpleMessage("Sign Up"),
