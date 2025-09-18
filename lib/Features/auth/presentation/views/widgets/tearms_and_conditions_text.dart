@@ -17,7 +17,13 @@ class TearmsAndConditionsText extends StatelessWidget {
             ),
           ),
           TextSpan(
-            text: 'الشروط والأحكام الخاصة بنا',
+            text: 'الشروط والأحكام ',
+            style: TextStyles.semiBold14.copyWith(
+              color: AppColors.lightprimaryColor,
+            ),
+          ),
+          TextSpan(
+            text: 'الخاصة بنا',
             style: TextStyles.semiBold14.copyWith(
               color: AppColors.lightprimaryColor,
             ),

@@ -42,7 +42,7 @@ class LoginViewBody extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 33),
-            CustomButton(onPressed: () {}, text: S.of(context).Login),
+            CustomButton(onPressed: () {}, text: S.of(context).SignIn),
             const SizedBox(height: 33),
             DontHaveAnAccountText(),
             const SizedBox(height: 28),

@@ -22,6 +22,9 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "AlreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
+      "تمتلك حساب بالفعل؟ ",
+    ),
     "ContinueWithApple": MessageLookupByLibrary.simpleMessage(
       "تسجيل بواسطة أبل",
     ),
@@ -37,10 +40,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "نسيت كلمة المرور؟ ",
     ),
     "FullName": MessageLookupByLibrary.simpleMessage("الإسم الكامل"),
-    "Login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "NewAccount": MessageLookupByLibrary.simpleMessage("حساب جديد"),
     "Or": MessageLookupByLibrary.simpleMessage("أو"),
     "Password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+    "SignIn": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "SignUp": MessageLookupByLibrary.simpleMessage("قم بإنشاء حساب"),
     "firstAppName": MessageLookupByLibrary.simpleMessage("Fruit"),
     "onBoardingButton": MessageLookupByLibrary.simpleMessage("ابدأ الان"),

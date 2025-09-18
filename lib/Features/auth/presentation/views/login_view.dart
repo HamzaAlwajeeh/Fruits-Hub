@@ -11,7 +11,7 @@ class LoginView extends StatelessWidget {
     return Scaffold(
       appBar: customAppBar(
         context: context,
-        title: S.of(context).Login,
+        title: S.of(context).SignIn,
         isFirstPage: true,
       ),
       body: LoginViewBody(),

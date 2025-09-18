@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:fruits_hub/Features/auth/presentation/views/widgets/already_have_an_account_text.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/widgets/custom_tearms_and_conditions.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/widgets/custom_text_form_field.dart';
 import 'package:fruits_hub/core/constants/constants.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
+import 'package:fruits_hub/core/widgets/custom_button.dart';
 import 'package:fruits_hub/generated/l10n.dart';
 
 class SignUpViewBody extends StatelessWidget {
@@ -36,6 +38,10 @@ class SignUpViewBody extends StatelessWidget {
             ),
             const SizedBox(height: 16),
             CustomTearmsAndConditions(),
+            const SizedBox(height: 30),
+            CustomButton(onPressed: () {}, text: S.of(context).SignUp),
+            const SizedBox(height: 26),
+            AlreadyHaveAnAccountText(),
           ],
         ),
       ),

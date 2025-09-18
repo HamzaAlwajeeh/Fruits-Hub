@@ -119,9 +119,9 @@ class S {
     );
   }
 
-  /// `Login`
-  String get Login {
-    return Intl.message('Login', name: 'Login', desc: '', args: []);
+  /// `SignIn`
+  String get SignIn {
+    return Intl.message('SignIn', name: 'SignIn', desc: '', args: []);
   }
 
   /// `Email`
@@ -202,6 +202,16 @@ class S {
   /// `Full Name`
   String get FullName {
     return Intl.message('Full Name', name: 'FullName', desc: '', args: []);
+  }
+
+  /// `Already have an account? `
+  String get AlreadyHaveAnAccount {
+    return Intl.message(
+      'Already have an account? ',
+      name: 'AlreadyHaveAnAccount',
+      desc: '',
+      args: [],
+    );
   }
 }
 

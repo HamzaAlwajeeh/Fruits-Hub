@@ -8,7 +8,7 @@
     "onBoarding_2_SubTitle" : "We offer you the finest, carefully selected fruits. Check out the details, photos, and reviews to make sure you're choosing the perfect fruit.",
     "onBoardingButton" : "Get Started",
 
-    "Login" : "Login",
+    "SignIn" : "SignIn",
     "Email" : "Email",
     "Password" : "Password",
     "ForgotPassword" : "Forgot Your Password? ",
@@ -20,6 +20,7 @@
     "ContinueWithFacebook" : "Continue with Facebook",
 
     "NewAccount" : "New Account",
-    "FullName" : "Full Name"
+    "FullName" : "Full Name",
+    "AlreadyHaveAnAccount" : "Already have an account? "
 
 }
