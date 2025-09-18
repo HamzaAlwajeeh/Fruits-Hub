@@ -18,5 +18,8 @@
     "SignUp" : "قم بإنشاء حساب",
     "ContinueWithGoogle" : "تسجيل بواسطة جوجل",
     "ContinueWithApple" : "تسجيل بواسطة أبل",
-    "ContinueWithFacebook" : "تسجيل بواسطة فيسبوك"
+    "ContinueWithFacebook" : "تسجيل بواسطة فيسبوك",
+
+    "NewAccount" : "حساب جديد",
+    "FullName" : "الإسم الكامل"
 }

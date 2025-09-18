@@ -17,6 +17,9 @@
     "SignUp" : "Sign Up",
     "ContinueWithGoogle" : "Continue with Google",
     "ContinueWithApple" : "Continue with Apple",
-    "ContinueWithFacebook" : "Continue with Facebook"
+    "ContinueWithFacebook" : "Continue with Facebook",
+
+    "NewAccount" : "New Account",
+    "FullName" : "Full Name"
 
 }

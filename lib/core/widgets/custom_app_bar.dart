@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:fruits_hub/core/utils/app_images.dart';
 import 'package:fruits_hub/core/utils/app_text_styles.dart';
 
 AppBar customAppBar({
@@ -11,7 +13,7 @@ AppBar customAppBar({
     leading: Visibility(
       visible: !isFirstPage,
       child: IconButton(
-        icon: Icon(Icons.arrow_back_ios_new),
+        icon: SvgPicture.asset(Assets.imagesArrowBack),
         onPressed: () {
           Navigator.pop(context);
         },

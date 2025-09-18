@@ -193,6 +193,16 @@ class S {
       args: [],
     );
   }
+
+  /// `New Account`
+  String get NewAccount {
+    return Intl.message('New Account', name: 'NewAccount', desc: '', args: []);
+  }
+
+  /// `Full Name`
+  String get FullName {
+    return Intl.message('Full Name', name: 'FullName', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
