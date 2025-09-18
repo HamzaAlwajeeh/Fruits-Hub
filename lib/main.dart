@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:fruits_hub/Features/splash/presentation/views/splash_view.dart';
+import 'package:fruits_hub/core/helper/functions/check_current_language.dart';
 import 'package:fruits_hub/core/helper/functions/on_generate_routes.dart';
 import 'package:fruits_hub/core/services/shared_pref_singleton.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
@@ -31,7 +32,7 @@ class FruitsHub extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // useMaterial3: false,
-        fontFamily: 'Cairo',
+        fontFamily: chickCurrentLanguage() == 'ar' ? 'Cairo' : 'Roboto',
         scaffoldBackgroundColor: Colors.white,
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryColor),
       ),

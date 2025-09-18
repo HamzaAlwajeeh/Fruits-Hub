@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fruits_hub/Features/auth/presentation/views/widgets/custom_tearms_and_conditions.dart';
 import 'package:fruits_hub/Features/auth/presentation/views/widgets/custom_text_form_field.dart';
 import 'package:fruits_hub/core/constants/constants.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
@@ -34,6 +35,7 @@ class SignUpViewBody extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16),
+            CustomTearmsAndConditions(),
           ],
         ),
       ),
